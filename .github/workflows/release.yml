@@ -147,6 +147,6 @@ jobs:
           prerelease: false
           generate_release_notes: true
           files: |
-            release-artifacts/*.so
+            release-artifacts/*/*.so
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
